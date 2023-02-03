@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>E:/java/candyAmirAli/candyAmirali/src/main/java</OriginalElement>
+  <nodes>
+    <node x="1298.6759868421066" y="2650.0">view.MainMenu</node>
+    <node x="679.928910818714" y="1569.0">controller.UserController</node>
+    <node x="1415.2593201754398" y="1558.0">model.Game</node>
+    <node x="832.9166666666666" y="269.0">model.User</node>
+    <node x="945.4380482456143" y="1245.5">model.items.UsernameItem</node>
+    <node x="1342.6962719298253" y="470.0">model.candy.WrappedCandy</node>
+    <node x="72.125" y="2482.0">view.ShopMenu</node>
+    <node x="278.03874269005905" y="2159.5">view.Menu</node>
+    <node x="1410.1759868421066" y="902.0">model.candy.ColorBomb</node>
+    <node x="286.125" y="2482.0">view.ProfileMenu</node>
+    <node x="1221.0296052631588" y="0.0">model.candy.StripedCandy</node>
+    <node x="715.125" y="2482.0">view.GameMenu</node>
+    <node x="695.1880482456143" y="935.0">model.items.Purchasable</node>
+    <node x="1342.2054093567258" y="2081.0">controller.GameController</node>
+    <node x="850.4166666666666" y="58.0">controller.Data</node>
+    <node x="501.125" y="2482.0">view.RegisterMenu</node>
+    <node x="316.8426535087731" y="2935.0">Launcher</node>
+    <node x="1251.7713815789477" y="1123.0">model.candy.Candy</node>
+    <node x="742.4380482456143" y="1200.0">model.items.PowerUps</node>
+    <node x="1583.7713815789477" y="1269.0">controller.Function</node>
+    <node x="316.8426535087731" y="2806.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="view.ProfileMenu" target="controller.UserController" relationship="DEPENDENCY">
+      <point x="48.5" y="-52.0" />
+      <point x="431.625" y="2440.0" />
+      <point x="779.928910818714" y="2440.0" />
+      <point x="779.928910818714" y="2059.0" />
+      <point x="800.428910818714" y="2059.0" />
+      <point x="0.0" y="218.5" />
+    </edge>
+    <edge source="model.Game" target="controller.Function" relationship="TO_ONE">
+      <point x="-69.0" y="-229.5" />
+      <point x="1484.2593201754398" y="1536.0" />
+      <point x="1520.413742690059" y="1536.0" />
+      <point x="1520.413742690059" y="1526.0" />
+      <point x="1613.5213815789477" y="1526.0" />
+      <point x="-29.75" y="39.5" />
+    </edge>
+    <edge source="controller.GameController" target="controller.UserController" relationship="DEPENDENCY">
+      <point x="-62.5" y="-163.5" />
+      <point x="1404.7054093567258" y="2059.0" />
+      <point x="1257.6759868421063" y="2059.0" />
+      <point x="1257.6759868421063" y="2049.0" />
+      <point x="800.428910818714" y="2049.0" />
+      <point x="0.0" y="218.5" />
+    </edge>
+    <edge source="Main" target="view.MainMenu" relationship="CREATE">
+      <point x="37.5" y="-39.5" />
+      <point x="429.3426535087731" y="2785.0" />
+      <point x="552.5926535087731" y="2785.0" />
+      <point x="552.5926535087731" y="2775.0" />
+      <point x="1395.6759868421066" y="2775.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="Launcher" target="Main" relationship="DEPENDENCY">
+      <point x="0.0" y="-39.5" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="model.candy.WrappedCandy" target="model.candy.ColorBomb" relationship="DEPENDENCY">
+      <point x="-109.33333333333331" y="83.5" />
+      <point x="1397.362938596492" y="860.0" />
+      <point x="1332.1962719298253" y="860.0" />
+      <point x="1332.1962719298253" y="880.0" />
+      <point x="1499.1759868421066" y="880.0" />
+      <point x="-89.0" y="-83.5" />
+    </edge>
+    <edge source="model.candy.ColorBomb" target="model.candy.Candy" relationship="GENERALIZATION">
+      <point x="-118.66666666666663" y="83.5" />
+      <point x="1469.5093201754398" y="1091.0" />
+      <point x="1399.6759868421063" y="1091.0" />
+      <point x="1399.6759868421063" y="1101.0" />
+      <point x="1329.7713815789477" y="1101.0" />
+      <point x="-78.0" y="-185.5" />
+    </edge>
+    <edge source="view.RegisterMenu" target="view.Menu" relationship="GENERALIZATION">
+      <point x="-48.5" y="-52.0" />
+      <point x="549.625" y="2460.0" />
+      <point x="498.9462719298254" y="2460.0" />
+      <point x="498.9462719298254" y="2430.0" />
+      <point x="452.78874269005905" y="2430.0" />
+      <point x="58.25" y="85.0" />
+    </edge>
+    <edge source="view.ShopMenu" target="view.Menu" relationship="GENERALIZATION">
+      <point x="48.5" y="-52.0" />
+      <point x="217.625" y="2460.0" />
+      <point x="498.9462719298254" y="2460.0" />
+      <point x="498.9462719298254" y="2430.0" />
+      <point x="452.78874269005905" y="2430.0" />
+      <point x="58.25" y="85.0" />
+    </edge>
+    <edge source="model.candy.StripedCandy" target="model.candy.ColorBomb" relationship="DEPENDENCY">
+      <point x="0.0" y="108.5" />
+      <point x="1379.5296052631588" y="238.0" />
+      <point x="1332.1962719298253" y="238.0" />
+      <point x="1332.1962719298253" y="880.0" />
+      <point x="1499.1759868421066" y="880.0" />
+      <point x="-89.0" y="-83.5" />
+    </edge>
+    <edge source="model.Game" target="model.candy.Candy" relationship="CREATE">
+      <point x="69.0" y="-229.5" />
+      <point x="1622.2593201754398" y="1536.0" />
+      <point x="1729.0213815789477" y="1536.0" />
+      <point x="1729.0213815789477" y="1516.0" />
+      <point x="1485.7713815789477" y="1516.0" />
+      <point x="78.0" y="185.5" />
+    </edge>
+    <edge source="model.candy.StripedCandy" target="model.candy.WrappedCandy" relationship="DEPENDENCY">
+      <point x="0.0" y="108.5" />
+      <point x="1379.5296052631588" y="238.0" />
+      <point x="1332.1962719298253" y="238.0" />
+      <point x="1332.1962719298253" y="248.0" />
+      <point x="1506.6962719298253" y="248.0" />
+      <point x="0.0" y="-83.5" />
+    </edge>
+    <edge source="model.candy.WrappedCandy" target="model.candy.StripedCandy" relationship="DEPENDENCY">
+      <point x="0.0" y="-83.5" />
+      <point x="1506.6962719298253" y="248.0" />
+      <point x="1332.1962719298253" y="248.0" />
+      <point x="1332.1962719298253" y="238.0" />
+      <point x="1379.5296052631588" y="238.0" />
+      <point x="0.0" y="108.5" />
+    </edge>
+    <edge source="model.candy.WrappedCandy" target="model.candy.Candy" relationship="GENERALIZATION">
+      <point x="0.0" y="83.5" />
+      <point x="1506.6962719298253" y="870.0" />
+      <point x="1399.6759868421063" y="870.0" />
+      <point x="1399.6759868421063" y="1101.0" />
+      <point x="1329.7713815789477" y="1101.0" />
+      <point x="-78.0" y="-185.5" />
+    </edge>
+    <edge source="controller.GameController" target="model.Game" relationship="DEPENDENCY">
+      <point x="-62.5" y="-163.5" />
+      <point x="1404.7054093567258" y="2059.0" />
+      <point x="1257.6759868421063" y="2059.0" />
+      <point x="1257.6759868421063" y="2039.0" />
+      <point x="1461.2593201754398" y="2039.0" />
+      <point x="-92.0" y="229.5" />
+    </edge>
+    <edge source="controller.UserController" target="model.User" relationship="TO_MANY">
+      <point x="-80.33333333333331" y="-218.5" />
+      <point x="720.0955774853807" y="1536.0" />
+      <point x="11.0" y="1536.0" />
+      <point x="11.0" y="870.0" />
+      <point x="871.5833333333334" y="870.0" />
+      <point x="-77.33333333333326" y="284.5" />
+    </edge>
+    <edge source="view.ShopMenu" target="controller.UserController" relationship="DEPENDENCY">
+      <point x="-48.5" y="-52.0" />
+      <point x="120.625" y="2460.0" />
+      <point x="22.0" y="2460.0" />
+      <point x="22.0" y="2059.0" />
+      <point x="800.428910818714" y="2059.0" />
+      <point x="0.0" y="218.5" />
+    </edge>
+    <edge source="view.ShopMenu" target="model.User" relationship="DEPENDENCY">
+      <point x="-48.5" y="-52.0" />
+      <point x="120.625" y="2460.0" />
+      <point x="22.0" y="2460.0" />
+      <point x="22.0" y="880.0" />
+      <point x="948.9166666666666" y="880.0" />
+      <point x="0.0" y="284.5" />
+    </edge>
+    <edge source="model.Game" target="model.candy.Candy" relationship="TO_ONE">
+      <point x="-69.0" y="-229.5" />
+      <point x="1484.2593201754398" y="1536.0" />
+      <point x="1520.413742690059" y="1536.0" />
+      <point x="1520.413742690059" y="1526.0" />
+      <point x="1329.7713815789477" y="1526.0" />
+      <point x="-78.0" y="185.5" />
+    </edge>
+    <edge source="model.candy.StripedCandy" target="model.candy.Candy" relationship="GENERALIZATION">
+      <point x="-105.66666666666669" y="108.5" />
+      <point x="1273.862938596492" y="248.0" />
+      <point x="1308.9462719298253" y="248.0" />
+      <point x="1308.9462719298253" y="1091.0" />
+      <point x="1399.6759868421063" y="1091.0" />
+      <point x="1399.6759868421063" y="1101.0" />
+      <point x="1329.7713815789477" y="1101.0" />
+      <point x="-78.0" y="-185.5" />
+    </edge>
+    <edge source="model.Game" target="model.candy.WrappedCandy" relationship="CREATE">
+      <point x="69.0" y="-229.5" />
+      <point x="1622.2593201754398" y="1536.0" />
+      <point x="1729.0213815789477" y="1536.0" />
+      <point x="1729.0213815789477" y="1516.0" />
+      <point x="1785.1759868421066" y="1516.0" />
+      <point x="1785.1759868421066" y="860.0" />
+      <point x="1616.0296052631586" y="860.0" />
+      <point x="109.33333333333331" y="83.5" />
+    </edge>
+    <edge source="model.items.PowerUps" target="model.items.Purchasable" relationship="REALIZATION">
+      <point x="-45.75" y="-108.5" />
+      <point x="788.1880482456143" y="1101.0" />
+      <point x="816.5416666666666" y="1101.0" />
+      <point x="816.5416666666666" y="1091.0" />
+      <point x="825.6880482456143" y="1091.0" />
+      <point x="43.5" y="50.5" />
+    </edge>
+    <edge source="view.MainMenu" target="view.Menu" relationship="GENERALIZATION">
+      <point x="-64.66666666666669" y="-52.0" />
+      <point x="1331.0093201754398" y="2628.0" />
+      <point x="490.625" y="2628.0" />
+      <point x="490.625" y="2460.0" />
+      <point x="498.9462719298254" y="2460.0" />
+      <point x="498.9462719298254" y="2430.0" />
+      <point x="452.78874269005905" y="2430.0" />
+      <point x="58.25" y="85.0" />
+    </edge>
+    <edge source="model.items.PowerUps" target="model.User" relationship="DEPENDENCY">
+      <point x="45.75" y="-108.5" />
+      <point x="879.6880482456143" y="880.0" />
+      <point x="948.9166666666666" y="880.0" />
+      <point x="0.0" y="284.5" />
+    </edge>
+    <edge source="model.candy.Candy" target="model.candy.ColorBomb" relationship="DEPENDENCY">
+      <point x="78.0" y="-185.5" />
+      <point x="1485.7713815789477" y="1101.0" />
+      <point x="1588.1759868421066" y="1101.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="Main" target="view.RegisterMenu" relationship="CREATE">
+      <point x="37.5" y="-39.5" />
+      <point x="429.3426535087731" y="2785.0" />
+      <point x="552.5926535087731" y="2785.0" />
+      <point x="552.5926535087731" y="2775.0" />
+      <point x="598.125" y="2775.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="view.ProfileMenu" target="view.Menu" relationship="GENERALIZATION">
+      <point x="-48.5" y="-52.0" />
+      <point x="334.625" y="2460.0" />
+      <point x="498.9462719298254" y="2460.0" />
+      <point x="498.9462719298254" y="2430.0" />
+      <point x="452.78874269005905" y="2430.0" />
+      <point x="58.25" y="85.0" />
+    </edge>
+    <edge source="view.GameMenu" target="controller.UserController" relationship="DEPENDENCY">
+      <point x="48.5" y="-52.0" />
+      <point x="860.625" y="2460.0" />
+      <point x="1074.9462719298253" y="2460.0" />
+      <point x="1074.9462719298253" y="2059.0" />
+      <point x="800.428910818714" y="2059.0" />
+      <point x="0.0" y="218.5" />
+    </edge>
+    <edge source="controller.UserController" target="model.User" relationship="TO_ONE">
+      <point x="-80.33333333333331" y="-218.5" />
+      <point x="720.0955774853807" y="1536.0" />
+      <point x="11.0" y="1536.0" />
+      <point x="11.0" y="870.0" />
+      <point x="871.5833333333334" y="870.0" />
+      <point x="-77.33333333333326" y="284.5" />
+    </edge>
+    <edge source="Main" target="view.Menu" relationship="DEPENDENCY">
+      <point x="-37.5" y="-39.5" />
+      <point x="354.3426535087731" y="2785.0" />
+      <point x="61.625" y="2785.0" />
+      <point x="61.625" y="2450.0" />
+      <point x="336.28874269005905" y="2450.0" />
+      <point x="-58.25" y="85.0" />
+    </edge>
+    <edge source="view.GameMenu" target="controller.GameController" relationship="DEPENDENCY">
+      <point x="48.5" y="-52.0" />
+      <point x="860.625" y="2460.0" />
+      <point x="1074.9462719298253" y="2460.0" />
+      <point x="1074.9462719298253" y="2450.0" />
+      <point x="1467.2054093567258" y="2450.0" />
+      <point x="0.0" y="163.5" />
+    </edge>
+    <edge source="model.Game" target="model.candy.StripedCandy" relationship="CREATE">
+      <point x="69.0" y="-229.5" />
+      <point x="1622.2593201754398" y="1536.0" />
+      <point x="1729.0213815789477" y="1536.0" />
+      <point x="1729.0213815789477" y="1516.0" />
+      <point x="1833.5093201754398" y="1516.0" />
+      <point x="1833.5093201754398" y="248.0" />
+      <point x="1828.2593201754398" y="248.0" />
+      <point x="1828.2593201754398" y="238.0" />
+      <point x="1485.1962719298256" y="238.0" />
+      <point x="105.66666666666674" y="108.5" />
+    </edge>
+    <edge source="Main" target="view.ProfileMenu" relationship="CREATE">
+      <point x="37.5" y="-39.5" />
+      <point x="429.3426535087731" y="2785.0" />
+      <point x="552.5926535087731" y="2785.0" />
+      <point x="552.5926535087731" y="2775.0" />
+      <point x="383.125" y="2775.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="view.MainMenu" target="view.GameMenu" relationship="CREATE">
+      <point x="64.66666666666669" y="-52.0" />
+      <point x="1460.3426535087733" y="2628.0" />
+      <point x="1602.7054093567258" y="2628.0" />
+      <point x="1602.7054093567258" y="2618.0" />
+      <point x="812.125" y="2618.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="model.User" target="controller.Data" relationship="DEPENDENCY">
+      <point x="0.0" y="-284.5" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="controller.Data" target="model.User" relationship="DEPENDENCY">
+      <point x="0.0" y="50.5" />
+      <point x="0.0" y="-284.5" />
+    </edge>
+    <edge source="view.GameMenu" target="view.Menu" relationship="GENERALIZATION">
+      <point x="-48.5" y="-52.0" />
+      <point x="763.625" y="2460.0" />
+      <point x="498.9462719298254" y="2460.0" />
+      <point x="498.9462719298254" y="2430.0" />
+      <point x="452.78874269005905" y="2430.0" />
+      <point x="58.25" y="85.0" />
+    </edge>
+    <edge source="model.items.Purchasable" target="model.User" relationship="DEPENDENCY">
+      <point x="0.0" y="-50.5" />
+      <point x="782.1880482456143" y="880.0" />
+      <point x="948.9166666666666" y="880.0" />
+      <point x="0.0" y="284.5" />
+    </edge>
+    <edge source="controller.UserController" target="model.User" relationship="CREATE">
+      <point x="80.33333333333331" y="-218.5" />
+      <point x="880.7622441520473" y="1536.0" />
+      <point x="1032.4380482456143" y="1536.0" />
+      <point x="1032.4380482456143" y="1526.0" />
+      <point x="1209.428910818714" y="1526.0" />
+      <point x="1209.428910818714" y="870.0" />
+      <point x="1026.25" y="870.0" />
+      <point x="77.33333333333326" y="284.5" />
+    </edge>
+    <edge source="model.items.UsernameItem" target="model.User" relationship="DEPENDENCY">
+      <point x="43.5" y="-63.0" />
+      <point x="1075.9380482456143" y="1101.0" />
+      <point x="1052.0416666666665" y="1101.0" />
+      <point x="1052.0416666666665" y="880.0" />
+      <point x="948.9166666666666" y="880.0" />
+      <point x="0.0" y="284.5" />
+    </edge>
+    <edge source="Main" target="view.ShopMenu" relationship="CREATE">
+      <point x="37.5" y="-39.5" />
+      <point x="429.3426535087731" y="2785.0" />
+      <point x="552.5926535087731" y="2785.0" />
+      <point x="552.5926535087731" y="2775.0" />
+      <point x="169.125" y="2775.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="view.MainMenu" target="model.Game" relationship="CREATE">
+      <point x="64.66666666666669" y="-52.0" />
+      <point x="1460.3426535087733" y="2628.0" />
+      <point x="1602.7054093567258" y="2628.0" />
+      <point x="1602.7054093567258" y="2059.0" />
+      <point x="1645.2593201754398" y="2059.0" />
+      <point x="92.0" y="229.5" />
+    </edge>
+    <edge source="controller.UserController" target="model.items.Purchasable" relationship="DEPENDENCY">
+      <point x="1.4210854715202004E-14" y="-218.5" />
+      <point x="800.428910818714" y="1536.0" />
+      <point x="782.9380482456143" y="1536.0" />
+      <point x="782.9380482456143" y="1526.0" />
+      <point x="731.9380482456143" y="1526.0" />
+      <point x="731.9380482456143" y="1101.0" />
+      <point x="738.6880482456143" y="1101.0" />
+      <point x="-43.5" y="50.5" />
+    </edge>
+    <edge source="model.Game" target="controller.Function" relationship="CREATE">
+      <point x="69.0" y="-229.5" />
+      <point x="1622.2593201754398" y="1536.0" />
+      <point x="1729.0213815789477" y="1536.0" />
+      <point x="1729.0213815789477" y="1516.0" />
+      <point x="1673.0213815789477" y="1516.0" />
+      <point x="29.75" y="39.5" />
+    </edge>
+    <edge source="controller.GameController" target="model.Game" relationship="TO_ONE">
+      <point x="62.5" y="-163.5" />
+      <point x="1529.7054093567258" y="2059.0" />
+      <point x="1553.2593201754398" y="2059.0" />
+      <point x="0.0" y="229.5" />
+    </edge>
+    <edge source="model.items.UsernameItem" target="model.items.Purchasable" relationship="REALIZATION">
+      <point x="-43.5" y="-63.0" />
+      <point x="988.9380482456143" y="1101.0" />
+      <point x="816.5416666666666" y="1101.0" />
+      <point x="816.5416666666666" y="1091.0" />
+      <point x="825.6880482456143" y="1091.0" />
+      <point x="43.5" y="50.5" />
+    </edge>
+    <edge source="model.candy.ColorBomb" target="model.candy.WrappedCandy" relationship="CREATE">
+      <point x="89.0" y="-83.5" />
+      <point x="1677.1759868421066" y="880.0" />
+      <point x="1823.0093201754398" y="880.0" />
+      <point x="1823.0093201754398" y="870.0" />
+      <point x="1785.1759868421066" y="870.0" />
+      <point x="1785.1759868421066" y="860.0" />
+      <point x="1616.0296052631586" y="860.0" />
+      <point x="109.33333333333331" y="83.5" />
+    </edge>
+    <edge source="model.Game" target="model.candy.ColorBomb" relationship="CREATE">
+      <point x="69.0" y="-229.5" />
+      <point x="1622.2593201754398" y="1536.0" />
+      <point x="1729.0213815789477" y="1536.0" />
+      <point x="1729.0213815789477" y="1516.0" />
+      <point x="1724.2622441520475" y="1516.0" />
+      <point x="1724.2622441520475" y="1101.0" />
+      <point x="1706.8426535087733" y="1101.0" />
+      <point x="118.66666666666674" y="83.5" />
+    </edge>
+    <edge source="view.RegisterMenu" target="controller.UserController" relationship="DEPENDENCY">
+      <point x="48.5" y="-52.0" />
+      <point x="646.625" y="2450.0" />
+      <point x="789.928910818714" y="2450.0" />
+      <point x="789.928910818714" y="2059.0" />
+      <point x="800.428910818714" y="2059.0" />
+      <point x="0.0" y="218.5" />
+    </edge>
+    <edge source="model.candy.ColorBomb" target="model.candy.StripedCandy" relationship="CREATE">
+      <point x="89.0" y="-83.5" />
+      <point x="1677.1759868421066" y="880.0" />
+      <point x="1823.0093201754398" y="880.0" />
+      <point x="1823.0093201754398" y="248.0" />
+      <point x="1828.2593201754398" y="248.0" />
+      <point x="1828.2593201754398" y="238.0" />
+      <point x="1485.1962719298256" y="238.0" />
+      <point x="105.66666666666674" y="108.5" />
+    </edge>
+    <edge source="controller.GameController" target="controller.Data" relationship="DEPENDENCY">
+      <point x="-62.5" y="-163.5" />
+      <point x="1404.7054093567258" y="2059.0" />
+      <point x="1257.6759868421063" y="2059.0" />
+      <point x="1257.6759868421063" y="2039.0" />
+      <point x="1239.5122441520475" y="2039.0" />
+      <point x="1239.5122441520475" y="248.0" />
+      <point x="948.9166666666666" y="248.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="controller.UserController" target="controller.Data" relationship="DEPENDENCY">
+      <point x="1.4210854715202004E-14" y="-218.5" />
+      <point x="800.428910818714" y="1536.0" />
+      <point x="782.9380482456143" y="1536.0" />
+      <point x="782.9380482456143" y="1526.0" />
+      <point x="0.0" y="1526.0" />
+      <point x="0.0" y="248.0" />
+      <point x="948.9166666666666" y="248.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="controller.Data" target="controller.UserController" relationship="DEPENDENCY">
+      <point x="0.0" y="50.5" />
+      <point x="948.9166666666666" y="248.0" />
+      <point x="0.0" y="248.0" />
+      <point x="0.0" y="1526.0" />
+      <point x="782.9380482456143" y="1526.0" />
+      <point x="782.9380482456143" y="1536.0" />
+      <point x="800.428910818714" y="1536.0" />
+      <point x="0.0" y="-218.5" />
+    </edge>
+    <edge source="controller.UserController" target="model.items.UsernameItem" relationship="CREATE">
+      <point x="80.33333333333331" y="-218.5" />
+      <point x="880.7622441520473" y="1536.0" />
+      <point x="1032.4380482456143" y="1536.0" />
+      <point x="0.0" y="63.0" />
+    </edge>
+    <edge source="controller.GameController" target="model.User" relationship="DEPENDENCY">
+      <point x="-62.5" y="-163.5" />
+      <point x="1404.7054093567258" y="2059.0" />
+      <point x="1257.6759868421063" y="2059.0" />
+      <point x="1257.6759868421063" y="2039.0" />
+      <point x="1198.428910818714" y="2039.0" />
+      <point x="1198.428910818714" y="880.0" />
+      <point x="948.9166666666666" y="880.0" />
+      <point x="0.0" y="284.5" />
+    </edge>
+    <edge source="view.MainMenu" target="controller.GameController" relationship="DEPENDENCY">
+      <point x="-1.4210854715202004E-14" y="-52.0" />
+      <point x="1395.6759868421066" y="2628.0" />
+      <point x="1394.2054093567258" y="2628.0" />
+      <point x="1394.2054093567258" y="2608.0" />
+      <point x="1467.2054093567258" y="2608.0" />
+      <point x="0.0" y="163.5" />
+    </edge>
+    <edge source="view.MainMenu" target="controller.UserController" relationship="DEPENDENCY">
+      <point x="-1.4210854715202004E-14" y="-52.0" />
+      <point x="1395.6759868421066" y="2628.0" />
+      <point x="1394.2054093567258" y="2628.0" />
+      <point x="1394.2054093567258" y="2608.0" />
+      <point x="919.625" y="2608.0" />
+      <point x="919.625" y="2059.0" />
+      <point x="800.428910818714" y="2059.0" />
+      <point x="0.0" y="218.5" />
+    </edge>
+    <edge source="controller.UserController" target="model.items.PowerUps" relationship="DEPENDENCY">
+      <point x="1.4210854715202004E-14" y="-218.5" />
+      <point x="800.428910818714" y="1536.0" />
+      <point x="782.9380482456143" y="1536.0" />
+      <point x="782.9380482456143" y="1526.0" />
+      <point x="833.9380482456143" y="1526.0" />
+      <point x="0.0" y="108.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.731179960448253" showDependencies="true" x="1381.363234763794" y="1314.162820050487" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
