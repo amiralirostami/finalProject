@@ -1,5 +1,5 @@
 # finalProject
-Hi, This is candycrush project, that is implemented by java.
+Hi, This is candycrush project, that is implemented by java.<br />
 In my repo, in folder candyAmirali you can see the project doc, UML and Sequence diagram introduce my game to you.
 Also in directory "doc" we have javadoc that help you to be informed about the project classes and methodes.
 for executing project you can use jar file in "out".
